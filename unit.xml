@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.1320" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-12T16:13:03" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="tiny_og_scraper" timestamp="2020-07-12T16:13:03" tests="6" file="/Users/cathlene.garcia/00128320-d015-4ede-a969-b08dec26d8c8/test/index.spec.js" time="0.1320" failures="0">
+    <testcase name="tiny_og_scraper Should emit the scrapeStarted event once the processing starts" time="0.0480" classname="Should emit the scrapeStarted event once the processing starts">
+    </testcase>
+    <testcase name="tiny_og_scraper Should emit an error event if the url is invalid" time="0.0120" classname="Should emit an error event if the url is invalid">
+    </testcase>
+    <testcase name="tiny_og_scraper Should emit the scrapeSuccess event once the data is parsed" time="0.0060" classname="Should emit the scrapeSuccess event once the data is parsed">
+    </testcase>
+    <testcase name="tiny_og_scraper Should convert the og tags to valid JSON-1" time="0.0060" classname="Should convert the og tags to valid JSON-1">
+    </testcase>
+    <testcase name="tiny_og_scraper Should convert the og tags to valid JSON-2" time="0.0590" classname="Should convert the og tags to valid JSON-2">
+    </testcase>
+    <testcase name="tiny_og_scraper Should throw a timeout error event if the process does not complete in the timeout period" time="0.0010" classname="Should throw a timeout error event if the process does not complete in the timeout period">
+    </testcase>
+  </testsuite>
+</testsuites>
